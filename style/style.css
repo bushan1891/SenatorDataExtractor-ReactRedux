@@ -1,0 +1,21 @@
+.input-group{
+  margin: 0px 0px;
+}
+
+
+td,th{
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+td:first-of-type {
+  height: 20px;
+  width: 25px;
+}
+
+input{
+width:50% !important;
+}
+button{
+  float: left;
+}

@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import SenatorReducer from './reduser_search';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+      senator_data:SenatorReducer
 });
 
 export default rootReducer;
